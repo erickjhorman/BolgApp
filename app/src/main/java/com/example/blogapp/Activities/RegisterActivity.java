@@ -87,9 +87,6 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         // Logic for authetication
 
         // To not show the progress bar
-
-
-
     }
 
     @Override
@@ -200,7 +197,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private void updateUI() {
-        Intent homeActivity = new Intent(getApplicationContext(), HomeActivity.class);
+        Intent homeActivity = new Intent(getApplicationContext(), NavigationDrawer.class);
         startActivity(homeActivity);
         finish();
     }

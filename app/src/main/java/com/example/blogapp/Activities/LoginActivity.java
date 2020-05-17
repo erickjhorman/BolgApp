@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(view);
 
         // I created an instance of HomeActivity
-        HomeActivity = new Intent(this, HomeActivity.class);
+        HomeActivity = new Intent(this, NavigationDrawer.class);
 
 
         binding.loginProgress.setVisibility(View.INVISIBLE);
